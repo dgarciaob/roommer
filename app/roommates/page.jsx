@@ -2,7 +2,7 @@ import React from 'react'
 
 const Roommates = () => {
   return (
-    <div>Encuentra Roommates</div>
+    <div className='mt-16'>Encuentra Roommates</div>
   )
 }
 

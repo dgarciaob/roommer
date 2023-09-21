@@ -2,7 +2,7 @@ import React from 'react'
 
 const Alquiler = () => {
   return (
-    <div>Alquila Aquí</div>
+    <div className='mt-16'>Alquila Aquí</div>
   )
 }
 

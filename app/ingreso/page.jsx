@@ -2,7 +2,7 @@ import React from 'react'
 
 const Ingreso = () => {
   return (
-    <div>Inicia Sesión Aquí</div>
+    <div className='mt-16'>Inicia Sesión Aquí</div>
   )
 }
 

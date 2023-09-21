@@ -16,8 +16,8 @@ const Nav = () => {
   // Todo lo que aparecerá en breakpoints mayores al de un celular, debe ir con sm:block
   
   return (
-    <nav className="flex justify-between my-6 mx-6">
-      <Sheet>
+    <nav className="flex justify-between px-5 h-16 fixed-navbar">
+      <Sheet className="z-50">
         <SheetTrigger>
           <Image 
             src="/icons/menuIcon.svg"
@@ -53,7 +53,7 @@ const Nav = () => {
         <p className="primary-color">Roommer</p>
       </Link>
 
-      <Sheet>
+      <Sheet className="z-50">
         <SheetTrigger>
           <Image 
             src="/icons/profileIcon.svg"
@@ -63,7 +63,7 @@ const Nav = () => {
         </SheetTrigger>
         <SheetContent className="w-[250px]" side="right">
           <SheetHeader>
-            <SheetTitle className="primary-color">Accesos</SheetTitle>
+            <SheetTitle className="primary-color">Perfil</SheetTitle>
             <SheetDescription>Inicia Sesión o Regístrate</SheetDescription>
           </SheetHeader>
           <div className="mt-10 flex flex-col space-y-2 text-center sm:text-left">
